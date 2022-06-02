@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey Practice</title>
+</head>
+<body>
+  <div class="container">
+    <h1>About you!</h1>
+    <form id="Name">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="DOB">
+      <div class="form-group">
+        <label for="born">Date of birth:</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="FavFood">
+      <h1>What is your favorite food of these three options?</h1>
+      <div class="radio">
+        <label>
+          <input type="radio" name="food" value="spaghetti" checked>
+          Spaghetti
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="food" value="lasagna">
+          Lasagna
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="food" value="tacos">
+          Tacos
+        </label>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
